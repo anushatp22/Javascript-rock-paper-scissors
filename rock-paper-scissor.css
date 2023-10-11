@@ -1,0 +1,25 @@
+.css-body {
+    background-color: midnightblue;
+    text-align: center;
+}
+
+.css-button {
+    background-color: aliceblue;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 10px;
+    font-size: large;
+    font-weight: bold;
+}
+
+.css-page {
+    font-size: large; 
+    color:aliceblue
+}
+
+
+.css-page1 {
+    font-size: 50px; 
+    color:aliceblue;
+
+}
