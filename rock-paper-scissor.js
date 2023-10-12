@@ -57,12 +57,12 @@ function eve() {
         finalResult += 'Tie'
         message += (`You chose ${finalValue}. Computer chose ${computerMove}. You ${result}`);
     }
-    else if ((computerMove === 'Scissor' & finalValue === 'Paper') | (computerMove === 'Rock' & finalValue === 'Scissor') | (computerMove === 'Paper' & finalValue === 'Rock') {
+    else if ((computerMove === 'Scissor' & finalValue === 'Paper') | (computerMove === 'Rock' & finalValue === 'Scissor') | (computerMove === 'Paper' & finalValue === 'Rock')) {
         result += 'lose';
         finalResult += 'You lose';
         message += (`You chose ${finalValue}. Computer chose ${computerMove}. You ${result}`);
     }
-    else if ((computerMove === 'Rock' & finalValue === 'Paper') | (computerMove === 'Scissor' & finalValue === 'Paper') | (computerMove === 'Scissor' & finalValue === 'Rock') | (computerMove === 'Paper' & finalValue === 'Scissor') {
+    else if ((computerMove === 'Rock' & finalValue === 'Paper') | (computerMove === 'Scissor' & finalValue === 'Paper') | (computerMove === 'Scissor' & finalValue === 'Rock') | (computerMove === 'Paper' & finalValue === 'Scissor')) {
         result += 'win';
         finalResult += 'You win';
         message += (`You chose ${finalValue}. Computer chose ${computerMove}. You ${result}`);
